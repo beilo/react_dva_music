@@ -1,0 +1,30 @@
+.loginbody {
+    height: 630px;
+    width: 100%;
+    background: grey;
+}
+
+.loginInput {
+    position: relative;
+}
+
+.textW {
+    color: white
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.ml30p {
+    margin-left: 35%;
+    position: relative;
+}
+
+.btn_width {
+    width: 40%;
+}

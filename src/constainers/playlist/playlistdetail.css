@@ -1,0 +1,69 @@
+.left-img {
+    height: 300px;
+    width: 300px;
+}
+
+.right-icon {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 5px 15px 5px 10px;
+    border-radius: 50%;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.border-radius {
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+
+.pt5 {
+    /* https://stackoverflow.com/questions/11700985/margin-top-not-working-for-span-element */
+    display: inline-block;
+    padding: 4px;
+    margin-top: 25px;
+}
+
+.pt-info {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.nav-t {
+    margin-top: 60px;
+}
+
+.btn-ml {
+    margin-right: 4px;
+}
+
+.h70 {
+    height: 70px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.h40 {
+    height: 40px;
+}
+
+.h20 {
+    height: 20px;
+}
+
+.mt-b-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mt_22 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}

@@ -1,0 +1,32 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        ["@babel/plugin-proposal-decorators", {
+            "legacy": true
+        }],
+        ["import", {
+            "libraryName": "antd",
+            "libraryDirectory": "lib",
+            "style": "true"
+        }, "ant"],
+        ["import", {
+            "libraryName": "ant-mobile",
+            "libraryDirectory": "lib"
+        }, "ant-mobile"],
+        ["import", {
+            "libraryName": "lodash",
+            "libraryDirectory": "",
+            "camel2DashComponentName": false
+        }, "lodash"],
+        "@babel/plugin-proposal-class-properties",
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "corejs": false,
+                "helpers": true,
+                "regenerator": true,
+                "useESModules": false
+            }
+        ]
+    ]
+}
